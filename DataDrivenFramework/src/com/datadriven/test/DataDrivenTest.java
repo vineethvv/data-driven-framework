@@ -12,7 +12,7 @@ public class DataDrivenTest {
 		
 		// Get test data from excel
 		
-		Xls_Reader reader = new Xls_Reader("C:\\Users\\vineethg\\eclipse-workspace\\DataDrivenFramework\\src\\com\\testdata\\TestAutomationTestData.xlsx");
+		Xls_Reader reader = new Xls_Reader("C:\\Users\\Vineeth\\git\\data-driven-framework\\DataDrivenFramework\\src\\com\\testdata\\TestAutomationTestData.xlsx");
 		
 		String firstname = reader.getCellData("RegTestData", "firstname", 2);
 		System.out.println(firstname);
@@ -35,7 +35,7 @@ public class DataDrivenTest {
 		
 		
 			
-		   System.setProperty("webdriver.chrome.driver", "E:\\selenium jar files\\chrome driver\\chromedriver.exe");
+		   System.setProperty("webdriver.chrome.driver", "F:\\software\\chromedriver_win32\\chromedriver.exe");
 			
 			// to launch the browser
 			

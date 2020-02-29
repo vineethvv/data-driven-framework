@@ -10,7 +10,7 @@ public class ExcelOperations {
 		
         // Get test data from excel
 		
-	    Xls_Reader reader = new Xls_Reader("C:\\Users\\vineethg\\eclipse-workspace\\DataDrivenFramework\\src\\com\\testdata\\TestAutomationTestData.xlsx");
+	    Xls_Reader reader = new Xls_Reader("C:\\Users\\Vineeth\\git\\data-driven-framework\\DataDrivenFramework\\src\\com\\testdata\\TestAutomationTestData.xlsx");
 	    
 	   
 	    

@@ -21,7 +21,7 @@ public class parameterTest {
 		if(browser.equals("chrome")) {
 		
 		
-		 System.setProperty("webdriver.chrome.driver", "E:\\selenium jar files\\chrome driver\\chromedriver.exe");
+		 System.setProperty("webdriver.chrome.driver", "F:\\software\\chromedriver_win32\\chromedriver.exe");
 			
 			// to launch the browser
 			

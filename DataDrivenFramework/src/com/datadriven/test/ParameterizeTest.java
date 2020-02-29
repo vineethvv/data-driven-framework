@@ -10,7 +10,7 @@ public class ParameterizeTest {
 
 	public static void main(String[] args) throws InterruptedException {
 		
-		 System.setProperty("webdriver.chrome.driver", "E:\\selenium jar files\\chrome driver\\chromedriver.exe");
+		 System.setProperty("webdriver.chrome.driver", "F:\\software\\chromedriver_win32\\chromedriver.exe");
 			
 			// to launch the browser
 			
@@ -34,7 +34,7 @@ public class ParameterizeTest {
 			
 		// Get test data from excel
 		
-	    Xls_Reader reader = new Xls_Reader("C:\\Users\\vineethg\\eclipse-workspace\\DataDrivenFramework\\src\\com\\testdata\\TestAutomationTestData.xlsx");
+	    Xls_Reader reader = new Xls_Reader("C:\\Users\\Vineeth\\git\\data-driven-framework\\DataDrivenFramework\\src\\com\\testdata\\TestAutomationTestData.xlsx");
 	    int rowcount = reader.getRowCount("RegTestData");
 	    
 	    reader.addColumn("RegTestData", "status");
